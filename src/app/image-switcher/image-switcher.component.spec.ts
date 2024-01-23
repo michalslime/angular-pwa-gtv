@@ -1,5 +1,5 @@
 import { ComponentFixture, TestBed } from '@angular/core/testing';
-import { ImageService } from '../image.service';
+import { ImageService } from '../services/image.service';
 import { Observable, Subscription, of } from 'rxjs';
 import { ImageSwitcherComponent } from './image-switcher.component';
 
