@@ -29,7 +29,6 @@ export class NbpService {
                 return response.rates && response.rates.length > 0 ? response.rates[0].mid : null;
             }), 
             catchError((error: HttpErrorResponse) => {
-
               console.error('Error fetching exchange rate:', error);
               return of(null);
             })
